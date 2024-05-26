@@ -97,7 +97,7 @@ const HeaderTwo = ({ handleSearch }: any) => {
               </ul>
             </li> */}
             <li>
-              <Link href="/contact" passHref>
+              <Link href="/" passHref>
                 Contáctanos
               </Link>
             </li>
