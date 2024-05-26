@@ -1,6 +1,14 @@
 /*--------------------------------------------------
     ## All responsive style
 ---------------------------------------------------*/
+@media all and (min-width: 1024px){
+	.counter-area-inner	{
+		position: relative;
+		.overlay-title {
+			font-size: 116px;
+		}
+	}
+}
 @media all and (min-width: 1500px) {
 	.container {
 		max-width: 1430px;
@@ -13,6 +21,8 @@
 		margin-right: 80px;
 	}
 	.counter-area-inner .overlay-title {
+		width: 100%;
+		text-align: center;
 	    font-size: 124px;
 	}
 	.about-thumb-area .about-img-6 {

@@ -55,11 +55,11 @@ const CallBack = () => {
                         <input type="text" placeholder="Email" />
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="single-input-inner">
                         <input type="text" placeholder="Tu mensaje" />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <div className="single-input-inner">
                         <textarea placeholder="Tu mensaje"></textarea>
