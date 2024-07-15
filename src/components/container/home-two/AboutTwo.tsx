@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const AboutTwo = () => {
   return (
-    <div id="about-area" className="about-area pd-top-120 pd-bottom-120">
+    <div className="about-area pd-top-120 pd-bottom-120" id="about-us">
       <div className="container">
         <div className="row">
           <div
@@ -72,11 +72,11 @@ const AboutTwo = () => {
                   </h5>
                 </div>
               </div>
-              <div className="btn-wrap">
+              {/* <div className="btn-wrap">
                 <Link className="btn btn-base border-radius" href="/">
                   Saber más
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

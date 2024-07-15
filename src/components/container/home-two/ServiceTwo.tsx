@@ -15,7 +15,7 @@ const ServiceTwo = () => {
 
   return (
     <>
-      <div className="service-area bg-black pd-top-120 pd-bottom-120">
+      <div className="service-area bg-black pd-top-120 pd-bottom-120" id="services">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-8">
@@ -232,14 +232,14 @@ const ServiceTwo = () => {
           </div>
         </div>
       </div>
-      <div className="btn-wrap bg-sky text-center">
+      {/* <div className="btn-wrap bg-sky text-center">
         <Link
           className="btn btn-base border-radius mt--30 left_image_bounce"
           href="/"
         >
           Ver todos los servicios
         </Link>
-      </div>
+      </div> */}
     </>
   );
 };

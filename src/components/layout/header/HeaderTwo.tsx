@@ -48,11 +48,11 @@ const HeaderTwo = ({ handleSearch }: any) => {
             <Image src={Logo} alt="Image" priority />
           </Link>
         </div>
-        <div className="nav-right-part nav-right-part-mobile">
+        {/* <div className="nav-right-part nav-right-part-mobile">
           <Link href="/" className="search-bar-btn pointer" onClick={handleSearch}>
             <i className="fa fa-search"></i>
           </Link>
-        </div>
+        </div> */}
         <div
           className={
             (toggleMenu ? " sopen" : " ") + " collapse navbar-collapse"
@@ -64,7 +64,7 @@ const HeaderTwo = ({ handleSearch }: any) => {
               <Link href="/" onClick={() => handleSubmenu("home")}>Inicio</Link>
             </li>
             <li className="menu-item-has-children">
-              <Link href="/" onClick={() => handleSubmenu("service")}>Servicios</Link>
+              <Link href="#services" onClick={() => handleSubmenu("service")}>Servicios</Link>
               {/* <ul className={`sub-menu ${isSubMenuOpen("service")}`}>
                 <li>
                   <Link href="/service">Service</Link>
@@ -75,7 +75,7 @@ const HeaderTwo = ({ handleSearch }: any) => {
               </ul> */}
             </li>
             <li className="menu-item-has-children">
-              <Link href="/" onClick={() => handleSubmenu("pages")}>Sobre nosotros</Link>
+              <Link href="#about-us" onClick={() => handleSubmenu("pages")}>Sobre nosotros</Link>
               {/* <ul className={`sub-menu ${isSubMenuOpen("pages")}`}>
                 <li>
                   <Link href="/about">About Us</Link>
@@ -97,14 +97,14 @@ const HeaderTwo = ({ handleSearch }: any) => {
               </ul>
             </li> */}
             <li>
-              <Link href="/" passHref>
+              <Link href="#contact-us" passHref>
                 Contáctanos
               </Link>
             </li>
           </ul>
         </div>
         <div className="nav-right-part nav-right-part-desktop align-self-center">
-          <Link className="btn btn-base" href="/">
+          <Link className="btn btn-base" href="#contact-us">
             Conversemos
           </Link>
         </div>

@@ -23,7 +23,7 @@ const AboutCounter = () => {
               <div className="single-counter-inner text-center">
                 <h2>
                   <span className="counter" ref={ref}>
-                    {inView && <CountUp start={0} end={20} duration={3} />}
+                    {inView && <CountUp start={0} end={30} duration={3} />}
                   </span>{" "}
                   k
                 </h2>

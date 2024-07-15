@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <div className="intro-area bg-sky pd-top-120 pd-bottom-90">
+    <div className="intro-area bg-sky pd-top-120 pd-bottom-90" id="resume">
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">

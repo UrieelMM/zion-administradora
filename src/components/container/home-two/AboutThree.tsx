@@ -24,7 +24,7 @@ const AboutThree = () => {
               Ser más allá de lo que somos, para consolidarnos como la mejor empresa de administración.
               </p>
               <div className="btn-wrap">
-                <Link className="btn btn-base border-radius" href="/">
+                <Link className="btn btn-base border-radius" href="#contact-us">
                   Conversemos
                 </Link>
               </div>

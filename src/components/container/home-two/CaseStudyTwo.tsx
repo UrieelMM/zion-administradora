@@ -3,9 +3,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import One from "public/images/case-study/1.png";
-import Two from "public/images/case-study/2.png";
-import Three from "public/images/case-study/3.png";
+import One from "public/images/case-study/BalconesTepeyac.jpg";
+import Two from "public/images/case-study/Bosques.jpg";
+import Three from "public/images/case-study/VidaTepeyac.jpg";
 
 const CaseStudyTwo = () => {
   return (
@@ -37,16 +37,16 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={One} alt="img" />
-                <Link className="case-view-btn" href="/case-study-details">
+                <Image src={One} alt="Residencial" style={{height: "300px"}} />
+                {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
-                </Link>
+                </Link> */}
               </div>
               <div className="details">
-                <p>Project</p>
+                <p>Residencial</p>
                 <h4>
-                  <Link href="/case-study-details">
-                    Nombre residencial
+                  <Link href="/">
+                    Balcones Tepeyac
                   </Link>
                 </h4>
               </div>
@@ -55,16 +55,16 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={Two} alt="img" />
-                <Link className="case-view-btn" href="/case-study-details">
+                <Image src={Two} alt="Residencial" style={{height: "300px"}} />
+                {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
-                </Link>
+                </Link> */}
               </div>
               <div className="details">
                 <p>Residencial</p>
                 <h4>
                   <Link href="/case-study-details">
-                    Nombre residencial
+                    Bosque de Leones 5906
                   </Link>
                 </h4>
               </div>
@@ -73,15 +73,15 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={Three} alt="img" />
-                <Link className="case-view-btn" href="/case-study-details">
+                <Image src={Three} alt="Residencial"  style={{height: "300px"}} />
+                {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
-                </Link>
+                </Link> */}
               </div>
               <div className="details">
                 <p>Residencial</p>
                 <h4>
-                  <Link href="/case-study-details">Nombre residencial</Link>
+                  <Link href="/case-study-details">Vida Tepeyac</Link>
                 </h4>
               </div>
             </div>

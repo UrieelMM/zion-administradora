@@ -49,11 +49,11 @@ const Header = ({ handleSearch, handleSidebar }: any) => {
             <Image src={Logo} alt="Logo" />
           </Link>
         </div>
-        <div className="nav-right-part nav-right-part-mobile">
+        {/* <div className="nav-right-part nav-right-part-mobile">
           <a className="search-bar-btn pointer" onClick={handleSearch}>
             <i className="fa fa-search"></i>
           </a>
-        </div>
+        </div> */}
         <div
           className={
             (toggleMenu ? " sopen" : " ") + " collapse navbar-collapse"

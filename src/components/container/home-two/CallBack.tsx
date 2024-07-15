@@ -11,7 +11,7 @@ import Five from "public/images/bg/1.webp";
 
 const CallBack = () => {
   return (
-    <div className="contact-area pd-top-110 bg-cover pd-bottom-120">
+    <div className="contact-area pd-top-110 bg-cover pd-bottom-120" id="contact-us">
       <Image className="bg-img-1" src={One} alt="img" />
       <Image className="bg-img-2" src={Two} alt="img" />
       <Image
@@ -66,9 +66,9 @@ const CallBack = () => {
                       </div>
                     </div>
                     <div className="col-12">
-                      <Link className="btn btn-black border-radius" href="/">
+                      <button className="btn btn-black border-radius">
                         Enviar mensaje
-                      </Link>
+                      </button>
                     </div>
                   </div>
                 </form>

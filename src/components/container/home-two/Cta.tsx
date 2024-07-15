@@ -18,11 +18,11 @@ const Cta = () => {
               <div className="btn-wrap">
                 <Link
                   className="btn btn-black border-radius me-2"
-                  href="/"
+                  href="#contact-us"
                 >
                   Trabaja con nosotros
                 </Link>
-                <Link className="btn btn-base border-radius" href="/">
+                <Link className="btn btn-base border-radius" href="#contact-us">
                   Conversemos
                 </Link>
                 <Image className="top_image_bounce" src={shape} alt="img" />

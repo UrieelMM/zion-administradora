@@ -26,7 +26,7 @@ const BannerTwo = () => {
           data-aos-duration="1500"
           data-aos-delay="500"
         >
-          <a href="#about-area">
+          <a href="#resume">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
