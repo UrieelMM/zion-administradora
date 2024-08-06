@@ -6,6 +6,8 @@ import Link from "next/link";
 import One from "public/images/case-study/BalconesTepeyac.jpg";
 import Two from "public/images/case-study/Bosques.jpg";
 import Three from "public/images/case-study/VidaTepeyac.jpg";
+import Seven from "public/images/case-study/Seven.jpg";
+import Nine from "public/images/case-study/Nine.jpg";
 
 const CaseStudyTwo = () => {
   return (
@@ -37,7 +39,7 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={One} alt="Residencial" style={{height: "300px"}} />
+                <Image src={One} alt="Residencial" style={{height: "300px", borderRadius: "5px"}} />
                 {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
                 </Link> */}
@@ -55,7 +57,7 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={Two} alt="Residencial" style={{height: "300px"}} />
+                <Image src={Two} alt="Residencial" style={{height: "300px", borderRadius: "5px"}} />
                 {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
                 </Link> */}
@@ -73,7 +75,7 @@ const CaseStudyTwo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="single-case-study-inner">
               <div className="thumb">
-                <Image src={Three} alt="Residencial"  style={{height: "300px"}} />
+                <Image src={Three} alt="Residencial"  style={{height: "300px", borderRadius: "5px"}} />
                 {/* <Link className="case-view-btn" href="/case-study-details">
                   <span>Ver todos</span> +
                 </Link> */}
@@ -82,6 +84,38 @@ const CaseStudyTwo = () => {
                 <p>Residencial</p>
                 <h4>
                   <Link href="/case-study-details">Vida Tepeyac</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="single-case-study-inner">
+              <div className="thumb">
+                <Image src={Seven} alt="Residencial"  style={{height: "300px", borderRadius: "5px"}} />
+                {/* <Link className="case-view-btn" href="/case-study-details">
+                  <span>Ver todos</span> +
+                </Link> */}
+              </div>
+              <div className="details">
+                <p>Residencial</p>
+                <h4>
+                  <Link href="/case-study-details">Plaza Crystal</Link>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="single-case-study-inner">
+              <div className="thumb">
+                <Image src={Nine} alt="Residencial"  style={{height: "300px", borderRadius: "5px"}} />
+                {/* <Link className="case-view-btn" href="/case-study-details">
+                  <span>Ver todos</span> +
+                </Link> */}
+              </div>
+              <div className="details">
+                <p>Residencial</p>
+                <h4>
+                  <Link href="/case-study-details">Vertiz 180</Link>
                 </h4>
               </div>
             </div>
