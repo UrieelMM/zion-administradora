@@ -13,7 +13,7 @@ const Cta = () => {
           <div className="col-xl-7 col-lg-7 col-md-10 align-self-center">
             <div className="section-title style-white mb-0 text-center" style={{textShadow: "2px 3px 0  rgba(0,0,0, .5)"}}>
               <h2 className="title">
-                Gestión Integrarl para tu Condominio
+                Gestión Integrarl para tu inmueble
               </h2>
               <div className="btn-wrap">
                 <Link

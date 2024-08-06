@@ -180,7 +180,7 @@ const ServiceTwo = () => {
             <div className="col-lg-6 offset-lg-2 align-self-center">
               <div className="section-title style-white mb-0 mt-4 mt-lg-0">
                 <h6 className="sub-title">// NUESTROS SERVICIOS</h6>
-                <h2 className="title">Gestión Efectiva para tu Condominio</h2>
+                <h2 className="title">Gestión Efectiva para tu inmueble</h2>
               </div>
               <ul
                 className="service-tab-inner nav nav-tabs mt-lg-5 mt-4"

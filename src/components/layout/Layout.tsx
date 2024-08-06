@@ -61,7 +61,7 @@ const Layout = ({
           type="image/x-icon"
         />
         <title>{Meta.title}</title>
-        <meta name="keywords" content="zion, administradora, administración, condominios" />
+        <meta name="keywords" content="zion, administradora, administración, inmuebles" />
         <meta name="description" content="Zion Administradora" />
       </Head>
 

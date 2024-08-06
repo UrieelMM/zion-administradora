@@ -27,7 +27,7 @@ const ServiceArea = () => {
           <div className="col-lg-6">
             <div className="section-title text-center">
               <h6 className="sub-title">// NUESTROS SERVICIOS</h6>
-              <h2 className="title">Gestión Efectiva para tu Condominio</h2>
+              <h2 className="title">Gestión Efectiva para tu inmueble</h2>
             </div>
           </div>
         </div>

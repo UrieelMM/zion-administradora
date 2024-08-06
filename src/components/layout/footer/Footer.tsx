@@ -139,7 +139,7 @@ const Footer = () => {
             <div className="widget widget_about">
               <h4 className="widget-title">Email</h4>
               <div className="details">
-                <p>direcciongeneral@zionadministraciondecondominios.com</p>
+                <p>direcciongeneral@zionadministraciondeinmuebles.com</p>
               </div>
             </div>
           </div>

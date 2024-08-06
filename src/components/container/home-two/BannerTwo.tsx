@@ -18,7 +18,7 @@ const BannerTwo = () => {
           data-aos-duration="1500"
           data-aos-delay="400"
         >
-          Gestión eficiente y confiable para su condominio.
+          Gestión eficiente y confiable para su inmueble.
         </h2>
         <div
           className="scroll-down top_image_bounce "

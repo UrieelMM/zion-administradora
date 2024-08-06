@@ -51,13 +51,13 @@ const AboutTwo = () => {
             <div className="section-title mb-0 mt-5 mt-lg-0">
               <h6 className="sub-title">// SOBRE NOSOTROS</h6>
               <h2 className="title">
-                Zión - Administradora de Condominios
+                Zión - Administradora de inmuebles
               </h2>
               <p className="content">
-              ZIÓN es una empresa con amplia experiencia en materia condominal, conformada por un equipo de profesionales con experiencia en la Administración de Condominios, Edificios, Plazas Comerciales, Parques Industriales, etc.
+              ZIÓN es una empresa con amplia experiencia en materia condominal, conformada por un equipo de profesionales con experiencia en la Administración de inmuebles, Edificios, Plazas Comerciales, Parques Industriales, etc.
               </p>
               <p className="quote mt-4 pb-2">
-                Equipo altamente calificado en la gestión de condominios y propiedades comerciales.
+                Equipo altamente calificado en la gestión de inmuebles y propiedades comerciales.
               </p>
               <div className="row">
                 <div className="col-md-6 mt-3">

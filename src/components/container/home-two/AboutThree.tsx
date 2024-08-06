@@ -17,7 +17,7 @@ const AboutThree = () => {
               <h6 className="sub-title">// Sobre Zión Adminsitradora</h6>
               <h2 className="title">Misión</h2>
               <p className="content mb-4">
-              Nuestra misión es ofrecer una administración eficiente, transparente e integral a su condominio con un servicio profesional y de alta calidad, mediante soluciones integrales y acorde a los requerimientos específicos de cada condominio, con el objetivo de lograr una mejor calidad de vida, conservación de su patrimonio e incremento en su plusvalía, administrando de forma eficiente, clara y transparente los recursos económicos y humanos.
+              Nuestra misión es ofrecer una administración eficiente, transparente e integral a su inmueble con un servicio profesional y de alta calidad, mediante soluciones integrales y acorde a los requerimientos específicos de cada inmueble, con el objetivo de lograr una mejor calidad de vida, conservación de su patrimonio e incremento en su plusvalía, administrando de forma eficiente, clara y transparente los recursos económicos y humanos.
               </p>
               <h2 className="title">Visión</h2>
               <p className="content mb-4">
