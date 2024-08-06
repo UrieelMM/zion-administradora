@@ -97,7 +97,7 @@ const CaseStudyTwo = () => {
                 </Link> */}
               </div>
               <div className="details">
-                <p>Residencial</p>
+                <p>Plaza</p>
                 <h4>
                   <Link href="/case-study-details">Plaza Crystal</Link>
                 </h4>
